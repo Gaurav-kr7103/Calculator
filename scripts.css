@@ -1,0 +1,63 @@
+* {
+    margin : 0px;
+    padding: 0px;
+    outline : 2px solid black;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.calc {
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+
+.display,
+.buttons {
+    flex : 1;
+}
+.display {
+    background-color: red;
+}
+.buttons {
+    background-color: green;
+    flex : 5;
+
+    display: flex;
+}
+
+
+.operands,
+.non-operands {
+    background-color: white;
+    flex : 1;
+}
+.operands {
+    background-color : orange;
+}
+.non-operands {
+    flex : 3;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.non-numbers,
+.numbers {
+    flex : 1;
+}
+.numbers {
+    flex : 4;
+    background-color: darkolivegreen;   
+}
