@@ -51,13 +51,85 @@ body {
     display: flex;
     flex-direction: column;
 }
+.operands {
+    display: flex;
+    flex-direction: column;
+}
+#division, 
+#multiply, 
+#subtract,
+#addition, 
+#equals {
+    flex : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+
 
 
 .non-numbers,
 .numbers {
     flex : 1;
 }
+.non-numbers {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* align-items: center; */
+}
+#clear,
+#negative,
+#percentage {
+    flex : 1;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .numbers {
     flex : 4;
-    background-color: darkolivegreen;   
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+}
+.non-zero,
+.zero {
+    flex:1;
+}
+.non-zero {
+    flex : 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap : 3px; */
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+    /* flex : 1; */
+    height: 100px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.zero {
+    display: flex;
+}
+#number-0, #decimal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#number-0 {
+    flex : 2;
+}
+#decimal {
+    flex : 1;
 }

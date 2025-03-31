@@ -3,22 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="./scripts.css">
 </head>
+<body>
     <div class="calc">
         <div class="display"></div>
         <div class="buttons">
             <div class="non-operands">
-                <div class="non-numbers"></div>
-                <div class="nu`mbers"></div>
+                <div class="non-numbers">
+                    <div id="clear">AC</div>
+                    <div id="negative">+/-</div>
+                    <div id="percentage">%</div>
+                </div>
+                <div class="numbers">
+                    <div class="non-zero">
+                        <div id="one">1</div>
+                        <div id="two">2</div>
+                        <div id="three">3</div>
+                        <div id="four">4</div>
+                        <div id="five">5</div>
+                        <div id="six">6</div>
+                        <div id="seven">7</div>
+                        <div id="eight">8</div>
+                        <div id="nine">9</div>
+                    </div>
+                    <div class="zero">
+                        <div id="number-0">0</div>
+                        <div id="decimal">.</div>
+                    </div>
+                </div>
             </div>
             <div class="operands">
-
+                <div id="division">/</div>
+                <div id="multiply">*</div>
+                <div id="subtract">-</div>
+                <div id="addition">+</div>
+                <div id="equals">=</div>
             </div>
         </div>
     </div>
-<body>
     <script src="./my-scripts.js"></script>
 </body>
 </html>
