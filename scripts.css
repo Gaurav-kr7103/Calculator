@@ -28,6 +28,10 @@ body {
 }
 .display {
     background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 80px;
 }
 .buttons {
     background-color: green;
